@@ -1,0 +1,9 @@
+{
+  "chat.agent.sandbox.enabled": "on",
+  "chat.agent.sandbox.allowNetwork": false,
+  "chat.agent.networkFilter": true,
+  "chat.agent.allowedNetworkDomains": [],
+  "chat.agent.sandbox.allowUnsandboxedCommands": false,
+  "chat.agent.sandbox.retryWithAllowNetworkRequests": false
+}
+

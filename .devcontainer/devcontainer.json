@@ -1,6 +1,5 @@
 {
-  "name": "Bristol CTF Environment",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "CTF Codespace",
 
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace checksec nmap netcat-openbsd tcpdump tshark ripgrep p7zip-full jpeginfo pngcheck steghide libimage-exiftool-perl foremost zbar-tools net-tools dnsutils whois socat && sudo apt-get clean",
 

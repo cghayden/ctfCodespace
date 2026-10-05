@@ -3,6 +3,21 @@
 A shareable x86-64 linux environment and workspace that comes with common testing and forensic tools installed
 
 ## How to Use
+- Click the green "<> Code" button, 
+- in the window that opens, click "Codespaces" to switch from Local 
+- Click the '+' button to "Create a Codespace on Main"
+- Give it a minute to build
+- This will open your own VSCode instance in the browser, with a few files included ( see the left sidebar)
+- at the bottom is a terminal.  This is a normal Linux command line environment that you can use to work with the files and included tools.
+
+- **To add your own files, you can simply drag them from your computer to the codespace editor.**
+ or 
+ use wget to get a direct download: (right click on the file link in a browser to copy the link)
+
+```wget "https://example.com/challenge-file"```
+
+Once the file appears in the Codespace, you can work with it normally from the terminal using tools such as file, strings, gdb, tshark, binwalk3, etc.
+
 
 ## Tools Included
 

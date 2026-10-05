@@ -1,8 +1,12 @@
 # ctf'in Codespace
 
-A shareable x86-64 linux environment and workspace that comes with common testing and forensic tools installed, including these tools:
+A shareable x86-64 linux environment and workspace that comes with common testing and forensic tools installed
 
-BINARY ANALYSIS / REVERSE ENGINEERING
+## How to Use
+
+## Tools Included
+
+### BINARY ANALYSIS / REVERSE ENGINEERING
 
 file
   Identifies a file's type from its contents rather than its filename extension.
@@ -44,7 +48,7 @@ checksec
   and executable-stack protections.
 
 
-NETWORK / PACKET ANALYSIS
+### NETWORK / PACKET ANALYSIS
 
 nmap
   Network scanner used to identify hosts, open ports, services, and service
@@ -65,7 +69,7 @@ whois
 
 
 
-FORENSICS / FILE INVESTIGATION
+### FORENSICS / FILE INVESTIGATION
 
 <!-- binwalk (binwalk3)
   Binwalk 3. Scans files for embedded files, compressed data, filesystem
@@ -101,7 +105,7 @@ unzip
   Lists and extracts ZIP archives.
 
 
-CRYPTOGRAPHY / ENCODING
+### CRYPTOGRAPHY / ENCODING
 
 openssl
   Cryptographic command-line toolkit. Useful for hashes, certificates,
@@ -119,7 +123,7 @@ xxd
   into binary.
 
 
-DATA / SEARCH / SCRIPTING
+### DATA / SEARCH / SCRIPTING
 
 python3
   Python interpreter. Useful for CTF scripting, decoding, parsing, automation,
@@ -149,7 +153,7 @@ awk
   command-line output.
 
 
-DOWNLOAD / TRANSFER
+### DOWNLOAD / TRANSFER
 
 curl
   Transfers data using HTTP, HTTPS, and many other protocols. Useful for
@@ -159,7 +163,7 @@ wget
   Downloads files and web resources from URLs.
 
 
-COMMON USAGE AND FIRST-STEPS
+### COMMON USAGE AND FIRST-STEPS
 
 For an unfamiliar file, useful starting commands include:
 

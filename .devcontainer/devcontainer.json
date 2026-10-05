@@ -1,7 +1,7 @@
 {
   "name": "CTF Codespace",
 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace nmap netcat-openbsd tshark ripgrep p7zip-full jpeginfo pngcheck steghide libimage-exiftool-perl foremost zbar-tools dnsutils whois && sudo apt-get clean",
+  "postCreateCommand": "sudo DEBIAN_FRONTEND=noninteractive apt-get update && sudo apt-get install -y ltrace nmap netcat-openbsd tshark ripgrep p7zip-full jpeginfo pngcheck steghide libimage-exiftool-perl foremost zbar-tools dnsutils whois && sudo apt-get clean",
 
   "customizations": {
     "vscode": {

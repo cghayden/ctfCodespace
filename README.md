@@ -18,6 +18,11 @@ A shareable x86-64 linux environment and workspace that comes with common testin
 
 Once the file appears in the Codespace, you can work with it normally from the terminal using tools such as file, strings, gdb, tshark, binwalk3, etc.
 
+**NOTE: By default, github includes an ai agent that is available to use in all codespaces.
+There is configuration in this codespace that sandboxes the agent and disables it's ability to make network connections.
+Do not disable this unless you know what you are doing, because if the agent interacts with competition endpoints, you will potentially be disqualified.**
+
+
 
 ## Tools Included
 

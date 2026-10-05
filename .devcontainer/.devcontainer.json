@@ -1,0 +1,14 @@
+{
+  "name": "Bristol CTF Environment",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace checksec nmap netcat-openbsd tcpdump tshark ripgrep p7zip-fullgit add .devcontainer/devcontainer.json jpeginfo pngcheck steghide libimage-exiftool-perl foremost zbar-tools net-tools dnsutils whois socat && sudo apt-get clean",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

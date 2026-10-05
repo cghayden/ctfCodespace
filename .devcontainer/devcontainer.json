@@ -1,7 +1,7 @@
 {
   "name": "CTF Codespace",
 
-"postCreateCommand": "echo 'wireshark-common wireshark-common/install-setuid boolean false' | sudo debconf-set-selections && sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ltrace checksec nmap netcat-openbsd tshark ...",
+"postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace checksec nmap netcat-openbsd",
   "customizations": {
     "vscode": {
       "settings": {

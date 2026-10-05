@@ -1,7 +1,7 @@
 {
   "name": "CTF Codespace",
 
-"postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace checksec nmap netcat-openbsd",
+"postCreateCommand": "sudo apt-get update && sudo apt-get install -y ltrace checksec nmap netcat-openbsd ripgrep p7zip-full jpeginfo pngcheck steghide libimage-exiftool-perl foremost zbar-tools net-tools dnsutils whois",
   "customizations": {
     "vscode": {
       "settings": {
